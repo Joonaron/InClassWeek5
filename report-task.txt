@@ -1,0 +1,6 @@
+projectKey=InclassWeek5
+serverUrl=http://localhost:9000
+serverVersion=25.4.0.105899
+dashboardUrl=http://localhost:9000/dashboard?id=InclassWeek5
+ceTaskId=f86aa939-d9b6-4b92-9295-3ef11d86c5ca
+ceTaskUrl=http://localhost:9000/api/ce/task?id=f86aa939-d9b6-4b92-9295-3ef11d86c5ca
