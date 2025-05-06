@@ -21,9 +21,9 @@ pipeline {
                     sh """
                      export PATH="/Users/joonasronimus/Desktop/Period4/sonar-scanner-7.1.0.4889-macosx-aarch64/bin:$PATH"
                     sonar-scanner \
-                    -Dsonar.projectKey=devops-demo \
+                    -Dsonar.projectKey=InClassWeek5 \
                     -Dsonar.sources=src \
-                    -Dsonar.projectName=DevOps-Demo \
+                    -Dsonar.projectName=InClassWeek5 \
                     -Dsonar.host.url=http://localhost:9000 \
                     -Dsonar.login=${env.SONAR_TOKEN} \
                     -Dsonar.java.binaries=target/classes
