@@ -22,7 +22,7 @@ pipeline {
                     sh """
                      export PATH="/Users/joonasronimus/Desktop/Period4/sonar-scanner-7.1.0.4889-macosx-aarch64/bin:$PATH"
                     sonar-scanner \
-                    -Dsonar.projectKey=InClassWeek5 \
+                    -Dsonar.projectKey=my_project_key \
                     -Dsonar.sources=src \
                     -Dsonar.projectName=InClassWeek5 \
                     -Dsonar.host.url=http://localhost:9000 \
